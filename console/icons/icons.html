@@ -1,0 +1,12 @@
+<div ng-controller="IconsCtrl">
+
+    <div layout="row" layout-margin layout-wrap>
+        <% _.each(glyphs, function(glyph) { %>
+        <div flex="20">
+            <span class="<%= className %> <%= className %>-<%= glyph.name %>"></span>
+            <div><%= glyph.name %></div>
+        </div>
+        <% }); %>
+    </div>
+
+</div>

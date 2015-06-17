@@ -1,0 +1,83 @@
+<div layout="row" ng-controller="consoleCtrl" ng-class="{'toolbar-regular': regular, 'toolbar-fixed': fixed}" scroll>
+
+    <md-sidenav class="md-sidenav-left" md-component-id="left">
+        <md-content layout-padding>
+            <md-button ng-click="closeLeftMenu()" class="md-primary">
+                Close Sidenav Left
+            </md-button>
+
+            <div layout="column" layout-align="left center" layout-margin layout-fill layout-padding>
+
+                <div class="module-item module-demo">
+                    <a ui-sref="console.demo">Console Demo</a>
+                </div>
+
+                <div class="module-item module-total-tag">
+                    <a ui-sref="totalTag.campaigns">Total Tag</a>
+                </div>
+
+                <div class="module-item module-advanced-tv">
+                    <a ui-sref="advancedTV">Advanced TV</a>
+                </div>
+
+                <div class="module-item module-amp-ranker">
+                    <a ui-sref="ampRanker">AMP Ranker</a>
+                </div>
+
+            </div>
+
+        </md-content>
+    </md-sidenav>
+
+
+    <md-toolbar class="toolbar console-toolbar console-toolbar-white md-toolbar-tools md-toolbar-tools-bottom">
+
+        <div class="md-toolbar-tools">
+            <md-button class="md-icon-button" aria-label="Settings" ng-click="openLeftMenu()">
+                <md-icon md-svg-icon="./images/icons/menu.svg"></md-icon>
+            </md-button>
+            <h3>LOGO</h3>
+
+            <span></span>
+
+            <div layout="row" class="menu-items">
+                <span class="active">campaigns</span>
+                <span>advertisers</span>
+                <span>audience</span>
+            </div>
+
+        </div>
+
+    </md-toolbar>
+
+    <md-toolbar class="toolbar console-toolbar console-toolbar-black md-toolbar-tools md-toolbar-tools-bottom">
+
+        <div class="md-toolbar-tools">
+            <md-button class="md-icon-button" aria-label="Settings" ng-click="openLeftMenu()">
+                <md-icon md-svg-icon="./images/icons/menu.svg"></md-icon>
+            </md-button>
+            <h3>LOGO</h3>
+
+            <span></span>
+
+            <div layout="row" class="menu-items">
+                <span class="active">campaigns</span>
+                <span>advertisers</span>
+                <span>audience</span>
+            </div>
+
+        </div>
+
+    </md-toolbar>
+
+
+</div>
+
+
+
+<div class="content" ui-view></div>
+
+
+
+
+

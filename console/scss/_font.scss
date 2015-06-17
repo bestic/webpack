@@ -1,0 +1,75 @@
+@font-face {
+font-family: "icons";
+src: url('../fonts/icons.eot');
+src: url('../fonts/icons.eot?#iefix') format('eot'),
+url('../fonts/icons.woff') format('woff'),
+url('../fonts/icons.ttf') format('truetype'),
+url('../fonts/icons.svg#icons') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+.icon:before {
+display: inline-block;
+font-family: "icons";
+font-style: normal;
+font-weight: normal;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-lg {
+font-size: 1.3333333333333333em;
+line-height: 0.75em;
+vertical-align: -15%;
+}
+.icon-2x { font-size: 2em; }
+.icon-3x { font-size: 3em; }
+.icon-4x { font-size: 4em; }
+.icon-5x { font-size: 5em; }
+.icon-fw {
+width: 1.2857142857142858em;
+text-align: center;
+}
+
+.icon-barbell:before { content: "\E001" }
+.icon-basketball35:before { content: "\E002" }
+.icon-biceps:before { content: "\E003" }
+.icon-canopy:before { content: "\E004" }
+.icon-championship8:before { content: "\E005" }
+.icon-climbing6:before { content: "\E006" }
+.icon-drop19:before { content: "\E007" }
+.icon-dumbbell21:before { content: "\E008" }
+.icon-finish:before { content: "\E009" }
+.icon-fishing11:before { content: "\E00A" }
+.icon-floating1:before { content: "\E00B" }
+.icon-guru:before { content: "\E00C" }
+.icon-guru1:before { content: "\E00D" }
+.icon-jump7:before { content: "\E00E" }
+.icon-jumping27:before { content: "\E00F" }
+.icon-leg5:before { content: "\E010" }
+.icon-man362:before { content: "\E011" }
+.icon-mountain24:before { content: "\E012" }
+.icon-padding:before { content: "\E013" }
+.icon-ping3:before { content: "\E014" }
+.icon-regular2:before { content: "\E015" }
+.icon-rugby98:before { content: "\E016" }
+.icon-runner5:before { content: "\E017" }
+.icon-running30:before { content: "\E018" }
+.icon-skidiving:before { content: "\E019" }
+.icon-skiing7:before { content: "\E01A" }
+.icon-skydiving2:before { content: "\E01B" }
+.icon-soccer43:before { content: "\E01C" }
+.icon-soccer44:before { content: "\E01D" }
+.icon-sport11:before { content: "\E01E" }
+.icon-sportive36:before { content: "\E01F" }
+.icon-stopwatch7:before { content: "\E020" }
+.icon-swimming20:before { content: "\E021" }
+.icon-tennis18:before { content: "\E022" }
+.icon-time13:before { content: "\E023" }
+.icon-trekking:before { content: "\E024" }
+.icon-trophy45:before { content: "\E025" }
+.icon-walking17:before { content: "\E026" }
+.icon-weightlift:before { content: "\E027" }
+.icon-yoga12:before { content: "\E028" }

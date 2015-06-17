@@ -1,0 +1,95 @@
+md-sidenav {
+  position: fixed;
+
+}
+
+.toolbar-regular {
+
+  margin-bottom: 64px;
+
+  .console-toolbar-white {
+    opacity: 1;
+  }
+  .console-toolbar-black {
+    transition: opacity 0.6s ease;
+    opacity: 0;
+  }
+
+}
+
+.toolbar-fixed {
+
+  margin-bottom: 64px;
+
+  .console-toolbar-white {
+    opacity: 0;
+  }
+  .console-toolbar-black {
+    transition: opacity 0.6s ease;
+    opacity: 1;
+  }
+}
+
+
+.toolbar {
+  .menu-items {
+    margin: 20px;
+
+    span {
+      margin: 20px;
+      text-transform: uppercase;
+
+      &.active {
+        font-weight: bold;
+      }
+    }
+
+  }
+}
+
+.console-toolbar {
+
+  &.md-default-theme {
+    background-color: #ffffff;
+    color: #aaa;
+  }
+
+  .md-toolbar-tools {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+
+    .md-icon-button {
+      color: #aaa;
+      margin-right: 20px;
+    }
+
+  }
+
+  &.console-toolbar-white {
+    position: fixed;
+    top: 0;
+  }
+
+  &.console-toolbar-black {
+
+    position: fixed;
+    top: 0;
+
+    &.md-default-theme {
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #ddd;
+    }
+
+    .md-toolbar-tools {
+
+      .md-icon-button {
+        color: #ddd;
+      }
+
+    }
+
+  }
+
+
+}
